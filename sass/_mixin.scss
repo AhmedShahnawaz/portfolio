@@ -1,0 +1,24 @@
+@mixin pflex{
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+@mixin cflex{
+  width: auto;
+  height: auto;
+  margin: 0px 10px 10px 0px;
+  flex-grow: 1;
+  padding: 10px;
+    
+}
+@mixin imgflex{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: auto;
+    height: 5rem;
+    cursor: pointer;
+    transition: transform .4s ease;
+    border: 1px solid gray;
+    justify-content: center;
+}

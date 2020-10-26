@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.title-h1 {
+  font-size: 3.3rem; }
+
+.btn1 {
+  background: linear-gradient(120deg, #cc99ff, #9999ff);
+  color: white; }
+  .btn1:hover {
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    color: white; }
+
+.btn2 {
+  border: 2px solid linear-gradient(120deg, #cc99ff, #9999ff);
+  color: #ccf; }
+
+.btnp {
+  border: none; }
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .button-group button {
+    width: auto;
+    height: auto;
+    margin: 0px 10px 10px 0px;
+    flex-grow: 1;
+    padding: 10px; }
+    .button-group button:hover {
+      background: linear-gradient(120deg, #cc99ff, #9999ff);
+      box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+      color: white;
+      transition: 0.4s; }
+
+.left-col-brand {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .left-col-brand .image-brand {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: auto;
+    height: 5rem;
+    cursor: pointer;
+    transition: transform .4s ease;
+    border: 1px solid gray;
+    justify-content: center; }
+    .left-col-brand .image-brand:hover {
+      box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+      transform: scale(1.2);
+      transition: 0.3s; }
+      .left-col-brand .image-brand:hover > img {
+        filter: brightness(0.15); }
+
+.exp1 {
+  background: linear-gradient(120deg, #cc99ff, #9999ff);
+  height: auto;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205); }
+
+.exp-area {
+  padding-left: 20px; }
+
+.text-right {
+  font-size: 4rem; }
+
+.img:hover {
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  transition: 0.4s; }
+
+.services:hover {
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205); }
+  .services:hover.services {
+    transform: scale(1.08);
+    transition: 0.3s ease; }
+
+.footer-area {
+  background: url("../img/footer-bg.png");
+  padding: 100px;
+  bottom: 0px; }
+  .footer-area .fa {
+    color: pink;
+    font-size: 2rem;
+    margin: 20px 10px;
+    padding: 5px; }
+    .footer-area .fa:hover {
+      transform: scale(1.3);
+      color: #9099ff; }
