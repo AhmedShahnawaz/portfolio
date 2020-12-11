@@ -70,7 +70,8 @@
 
 .img:hover {
   box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
-  transition: 0.4s; }
+  transition: 0.4s;
+  background: black; }
 
 .services:hover {
   box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205); }
